@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createElemente</title>
+</head>
+<body>
+
+
+    <script>
+        var paragrafo = document.createElement("p")
+        paragrafo.textContent = "Um paragrafo feito com JS"
+        document.body.appendChild(paragrafo)
+
+        var btn = document.createElement("button")
+        btn.textContent = "ESTE É UM BUTTON"
+        document.body.appendChild(btn)
+
+        var imagen = document.createElement("img")
+        imagen.src = "https://th.bing.com/th/id/OIP.0VBYh9PVNGqE1DFg5nTvAQHaFn?w=221&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
+        document.body.appendChild(imagen)
+    </script>
+</body>
+</html>
